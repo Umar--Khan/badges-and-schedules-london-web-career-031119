@@ -21,5 +21,9 @@ newarray
 end
 
 def printer(arr)
-  batch_badge_creator(arr) + assign_rooms(arr)
+  newarray= []
+array.each do |list|
+newarray.push("Hello, my name is #{list}.")
+end
+newarray
 end
