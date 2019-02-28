@@ -21,7 +21,8 @@ newarray
 end
 
 def printer(array)
-array.each do |list|
+array.each_with_index do |list, index|
 puts "Hello, my name is #{list}."
+puts "Hello, #{list}! You'll be assigned to room #{index+1}!"
 end
 end
