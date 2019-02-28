@@ -25,5 +25,5 @@ def printer(array)
 array.each do |list|
 newarray.push("Hello, my name is #{list}.")
 end
-newarray
+puts newarray
 end
