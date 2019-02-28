@@ -20,7 +20,7 @@ end
 newarray
 end
 
-def printer(arr)
+def printer(array)
   newarray= []
 array.each do |list|
 newarray.push("Hello, my name is #{list}.")
