@@ -22,6 +22,6 @@ end
 
 def printer(array)
 array.each do |list|
-puts "Hello, my name is #{list}."
+puts "Hello, my name is #{list}"
 end
 end
